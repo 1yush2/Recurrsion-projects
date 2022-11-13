@@ -1,7 +1,10 @@
+import "App.css";
+import TreeApp from "tree-node-app";
+
 function App() {
   return (
-    <div className="App">
-      <h1>hey</h1>
+    <div className="red">
+      <TreeApp />
     </div>
   );
 }
