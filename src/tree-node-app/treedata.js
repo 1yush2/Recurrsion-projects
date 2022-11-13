@@ -1,11 +1,11 @@
 export const treeData = [
   {
     key: "0",
-    label: "Documents",
+    label: "Home",
     children: [
       {
         key: "0-0",
-        label: "Document 1-1",
+        label: "Folder 1-1",
         children: [
           {
             key: "0-1-1",
@@ -29,13 +29,18 @@ export const treeData = [
       },
       {
         key: "0-0",
-        label: "documennt-2.doc",
+        label: "document-2.doc",
       },
     ],
   },
   {
     key: "2",
     label: "Downloads",
-    children: [],
+    children: [
+      {
+        key: "1-1",
+        label: "document3.doc",
+      },
+    ],
   },
 ];
