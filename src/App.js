@@ -1,10 +1,21 @@
+import React from "react";
 import "App.css";
-import TreeApp from "tree-node-app";
+import Sort from "sort";
+// import TreeApp from "tree-node-app";
 
 function App() {
+  // const [replyBox, setShowReplyBox] = React.useState("hehe");
+
+  // const handleClick = () => {
+  //   setShowReplyBox((v) => (v === "hehe" ? "" : "hehe"));
+  // };
+
+  // console.log(replyBox);
   return (
-    <div className="red">
-      <TreeApp />
+    <div className="bg-slate-600" style={{ height: "100vh" }}>
+      <Sort />
+      {/* <TreeApp /> */}
+      {/* <button onClick={handleClick}> test</button> */}
     </div>
   );
 }
